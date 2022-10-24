@@ -4,6 +4,14 @@ SassyCast is a simple API for type conversion in Sass.
 
 ## Installation
 
+This has been forked from [KittyGiraudel/SassyCast](https://github.com/KittyGiraudel/SassyCast) to remove the `test` and `build` scripts, and to remove the `devDependencies`. This is to remove the need to install [`node-gyp`](https://github.com/nodejs/node-gyp) and its related complications when installing via npm. Note that the original package is abandoned and this fork is primarily for backward compatibility with some projects so is unlikely to receive any new features. To install via npm:
+
+```
+npm install github:Ambient-Impact/SassyCast#main --save-dev
+```
+
+Original install instructions:
+
 ```
 gem install SassyCast
 ```
